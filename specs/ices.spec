@@ -101,6 +101,7 @@ fi
 
 %changelog
 * Tue Jan 15 2019 Kitsune Solar <kitsune.solar@gmail.com> - 2.0.2-1
+- New version: 2.0.2.
 - Update from METASTORE.
 
 * Fri Jul 13 2018 Fedora Release Engineering <releng@fedoraproject.org> - 2.0.1-26
