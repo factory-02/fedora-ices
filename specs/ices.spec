@@ -10,7 +10,7 @@ Source0:                        https://downloads.us.xiph.org/releases/ices/ices
 Source1:                        ices.service
 Source2:                        ices.logrotate
 
-Patch0:                         ices-2.0.1-noserial.patch
+#Patch0:                        ices-2.0.1-noserial.patch
 
 BuildRequires:                  gcc
 BuildRequires:                  libxml2-devel, libshout-devel >= 2.0, libvorbis-devel
@@ -35,7 +35,7 @@ could be used if certain conditions are met.
 
 %prep
 %setup -q
-%patch0 -p1 -b .noserial
+#%patch0 -p1 -b .noserial
 perl -pi -e 's|<background>0</background>|<background>1</background>|' conf/*.xml
 
 %build
